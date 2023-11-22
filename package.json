@@ -1,0 +1,61 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev:admin": "pnpm run -C packages/jkm-web-admin dev",
+    "dev:research": "pnpm run -C packages/jkm-web-research dev",
+    "build:admin": "pnpm run -C packages/jkm-web-admin build",
+    "build:research": "pnpm run -C packages/jkm-web-research build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@formulajs/formulajs": "^4.3.3",
+    "axios": "^1.5.1",
+    "core-js": "^3.33.0",
+    "dayjs": "^1.11.10",
+    "element-plus": "^2.4.0",
+    "js-base64": "^3.7.5",
+    "mo-components": "workspace:^",
+    "mo-utils": "workspace:^",
+    "nprogress": "^0.2.0",
+    "qs": "^6.11.2",
+    "vue": "^3.3.4",
+    "vuex": "^4.1.0",
+    "vue-router": "^4.2.5",
+    "vuex-persistedstate": "^4.1.0",
+    "xlsx-js-style": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.15",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-plugin-vuex": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.3.4",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-vue": "^9.17.0",
+    "prettier": "^3.0.3",
+    "sass": "^1.69.3",
+    "sass-loader": "^13.3.2"
+  },
+  "engines": {
+    "npm": ">= 9.8.1",
+    "node": ">= 18.18.0"
+  },
+  "browserslist": [
+    "> 5% in CN",
+    "not ie <=12",
+    "last 5 Chrome major versions",
+    "last 5 Safari major versions",
+    "last 5 Firefox major versions"
+  ]
+}
