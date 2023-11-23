@@ -5,10 +5,12 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "dev:admin": "pnpm run -C packages/jkm-web-admin dev",
-    "dev:research": "pnpm run -C packages/jkm-web-research dev",
-    "build:admin": "pnpm run -C packages/jkm-web-admin build",
-    "build:research": "pnpm run -C packages/jkm-web-research build"
+    "dev:demo1": "pnpm run --filter demo1 dev",
+    "dev:demo2": "pnpm run --filter demo2 dev",
+    "dev:demo3": "pnpm run --filter demo3 dev",
+    "build:demo1": "pnpm run --filter demo1 build",
+    "build:demo2": "pnpm run --filter demo2 build",
+    "build:demo3": "pnpm run --filter demo3 build"
   },
   "keywords": [],
   "author": "",
